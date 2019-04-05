@@ -1,0 +1,6 @@
+push
+move
+250 250 0
+torus
+250 250 0 100 50
+display

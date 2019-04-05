@@ -5,11 +5,11 @@ from matrix import *
 import math
 
 screen = new_screen()
-color = [ 0, 255, 0 ]
+color = [ 255, 250, 205]
 edges = []
 polygons = []
 t = new_matrix()
 ident(t)
 csystems = [ t ]
 
-parse_file( 'script', edges, polygons, csystems, screen, color )
+parse_file( 'script1', edges, polygons, csystems, screen, color )
