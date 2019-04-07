@@ -90,8 +90,8 @@ def parse_file( fname, edges, polygons, csystems, screen, color ):
             add_torus(polygons,
                       float(args[0]), float(args[1]), float(args[2]),
                       float(args[3]), float(args[4]), step_3d)
-            matrix_mult(csystems[-1], edges)
-            draw_lines(edges, screen, color)
+            matrix_mult(csystems[-1], polygons)
+            draw_polygons(polygons, screen, color)
             edges=[]
 
         elif line == 'box':
